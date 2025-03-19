@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Loan Department">
+  <test thread-count="5" name="Agression">
+  <!-- just use "package name" if you want to test a specific package -->
+    
+    <!-- Run cases that has the tag smoke -->
+    <groups>
+    <run>
+    <!--use exclude if its the opposite-->
+    <include name="Smoke"/>
+    </run>
+    </groups>
+    
+    <classes>
+      <class name="test.Day1" />
+       <class name="test.Day2"/>
+         <class name = "test.Day3"/>
+       <class name="test.Day4"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+</suite> <!-- Suite -->
