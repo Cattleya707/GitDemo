@@ -6,6 +6,7 @@ public class RESTAPITest {
 	@Test
 	public void postJira() {
 		System.out.println("postJira");
+		//this is my comment
 	}
 	
 	@Test
