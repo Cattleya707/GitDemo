@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-18T08:45:49 PST" name="Default suite" finished-at="2025-03-18T08:45:49 PST" duration-ms="79">
+  <suite started-at="2025-03-19T10:58:39 PST" name="Default suite" finished-at="2025-03-19T10:58:40 PST" duration-ms="87">
     <groups>
     </groups>
-    <test started-at="2025-03-18T08:45:49 PST" name="Default test" finished-at="2025-03-18T08:45:49 PST" duration-ms="79">
-      <class name="test.Day1">
-        <test-method signature="SecondTest()[pri:0, instance:test.Day1@4218d6a3]" started-at="2025-03-18T08:45:49 PST" name="SecondTest" finished-at="2025-03-18T08:45:49 PST" duration-ms="16" status="PASS">
+    <test started-at="2025-03-19T10:58:39 PST" name="Default test" finished-at="2025-03-19T10:58:40 PST" duration-ms="87">
+      <class name="test.RESTAPITest">
+        <test-method signature="postJira()[pri:0, instance:test.RESTAPITest@158d2680]" started-at="2025-03-19T10:58:40 PST" name="postJira" finished-at="2025-03-19T10:58:40 PST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SecondTest -->
-        <test-method signature="demo()[pri:0, instance:test.Day1@4218d6a3]" started-at="2025-03-18T08:45:49 PST" name="demo" finished-at="2025-03-18T08:45:49 PST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method is-config="true" signature="Lastexec()[pri:0, instance:test.Day1@4218d6a3]" started-at="2025-03-18T08:45:49 PST" name="Lastexec" finished-at="2025-03-18T08:45:49 PST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Lastexec -->
-        <test-method is-config="true" signature="afSyite()[pri:0, instance:test.Day1@4218d6a3]" started-at="2025-03-18T08:45:49 PST" name="afSyite" finished-at="2025-03-18T08:45:49 PST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afSyite -->
-      </class> <!-- test.Day1 -->
+        </test-method> <!-- postJira -->
+      </class> <!-- test.RESTAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
