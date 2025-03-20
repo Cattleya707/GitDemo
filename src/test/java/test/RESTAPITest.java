@@ -18,4 +18,9 @@ public class RESTAPITest {
 	public void IOApps() {
 		System.out.println("IOApps");
 	}
+	
+	@Test
+	public void Enstars() {
+		System.out.println("Enstars");
+	}
 }
